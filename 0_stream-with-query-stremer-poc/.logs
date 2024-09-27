@@ -1,0 +1,10 @@
+transformer: data: {"domain":"53.com","website":"","email":""}
+csvFormatter: ERROR: {"code":"ERR_INVALID_ARG_TYPE","name":"TypeError","message":"The \"chunk\" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"chunk\" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object\n    at new NodeError (node:internal/errors:372:5)\n    at readableAddChunk (node:internal/streams/readable:260:13)\n    at CsvFormatterStream.Readable.push (node:internal/streams/readable:228:10)\n    at Writable.write [as _write] (/home/vivek/dev/nexsales/RnD/stream-with-query-stremer-poc/index.js:44:28)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at Writable.write (node:internal/streams/writable:334:10)\n    at Transform.transform [as _transform] (/home/vivek/dev/nexsales/RnD/stream-with-query-stremer-poc/index.js:48:18)\n    at Transform._write (node:internal/streams/transform:184:23)\n    at writeOrBuffer (node:internal/streams/writable:389:12)"}
+transformer: data: {"domain":"abc.com","website":"www.abc.com","email":"sherry.bennett@alaskaair.com"}
+transformer: data: {"domain":"pqr.com","website":"","email":"sratna@microfluidicscorp.com"}
+transformer: data: {"domain":"*@$&#%*\\","website":"","email":""}
+transformer: data: {"domain":"","website":"","email":""}
+transformer: data: {"domain":"xyz.com","website":"","email":"srimanikanth_v@fanniemae.com"}
+transformer: data: {"domain":"","website":"www.ola.com","email":"john.lobo@eogresources.com"}
+transformer: data: {"domain":"www.808audio.com","website":"","email":""}
+transformer: data: {"domain":"","website":"@(#$&)#*","email":""}
