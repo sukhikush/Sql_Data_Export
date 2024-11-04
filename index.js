@@ -160,11 +160,11 @@ function startDownloadProcess ({ fileLocation, sqlQuery, logger }) {
 
 ;(async data => {
   var offset = 1 * 810000
-  data.fileLocation = `./csv_data/Account_Master_Tech_Data.csv`
+  data.fileLocation = `./csv_data/sfdc_vbc_leads.csv`
 
   //Not Verfied Account Master data for 50+ employees... Total Data count - 10,01,461
 
-  data.sqlQuery = `Select * from "Technologies";`
+  data.sqlQuery = `Select "c".*,"a".* from "sfdc_vbc_leads" as "c" inner join "account_look_up" as "a" on "c"."def_domain" = "a"."acc_def_domain"`
 
   data.logger.info('Staring Downloading Process for...')
   startDownloadProcess(data).then(cnt => {

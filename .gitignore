@@ -130,3 +130,5 @@ dist
 .pnp.*
 
 localaccess.json
+*lock.json
+csv_data
